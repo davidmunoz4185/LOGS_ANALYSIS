@@ -58,6 +58,9 @@ You just have to execute:
 
 ```language
 cd /vagrant/news
+unzip newsdata.zip
+Archive:  newsdata.zip
+  inflating: newsdata.sql
 psql -d news -f newsdata.sql
 python news.py
 ```
